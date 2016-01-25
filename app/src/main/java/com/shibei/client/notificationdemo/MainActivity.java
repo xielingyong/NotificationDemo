@@ -68,6 +68,10 @@ public class MainActivity extends AppCompatActivity {
 
 	}
 
+	public void test(){
+
+	}
+
 	public void stopService(View v){
 		Intent startTop=new Intent(MainActivity.this, MyService.class);
 		stopService(startTop);
